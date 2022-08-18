@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,500;1,600&display=swap");
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+    background-color: #deeeff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    }
+
+    .container {
+    width: 600px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    }
+
+    .tab-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    }
+
+    .btn-tab {
+    background-color: white;
+    padding: 10px 27px;
+    border: 1px solid white;
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    }
+
+    .btn-tab.active {
+    color: #7360ff;
+    }
+
+    .content-box {
+    padding: 20px;
+    }
+
+    .content h2 {
+    margin-bottom: 10px;
+    }
+
+    .content {
+    display: none;
+    }
+
+    .content.active {
+    display: block;
+    }
+
+    .line {
+    position: absolute;
+    top: 48px;
+    left: 13px;
+    width: 90px;
+    height: 5px;
+    background-color: #7360ff;
+    transition: all 0.4s ease;
+    }
+
+    p {
+    line-height: 30px;
+    }

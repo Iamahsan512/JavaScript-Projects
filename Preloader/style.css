@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+/* Preloader  */
+
+.preloader {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    /* top: 0; left: 0; */
+    background-color: #e5eff1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    z-index: 999;
+}
+
+.preloader img {
+    width: unset;
+}
+
+

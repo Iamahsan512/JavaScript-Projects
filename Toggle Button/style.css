@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+.container {
+    background-color: #666;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.toggle-btn {
+    width: 90px;
+    height: 40px;
+    background: #ffff;
+    border-radius: 30px;
+    transition: all 0.4s ease-in-out;
+}
+
+.toggle-btn .circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: crimson;
+    margin: 3px 0px 1px 3px;
+    cursor: pointer;
+}
+
+.toggle-btn.active {
+    background: crimson;
+}
+
+.toggle-btn.active .circle {
+    background: #fff;
+    margin: 2px 0px 1px 50px;
+    cursor: pointer;
+}

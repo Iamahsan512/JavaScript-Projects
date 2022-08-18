@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container {
+    background: #03254E;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    height: 400px;
+    width: 450px;
+    background: #F1FAEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.wrapper h1 {
+    color: #1B1725;
+    letter-spacing: 2px;
+}
+
+.wrapper .center {
+    margin: 34px 0 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .center h2 {
+    letter-spacing: 10px;
+    font-weight: 700;
+    color: #006494;
+    margin-right: 20px;
+}
+
+/* From uiverse.io by @ke1221 */
+button {
+    color: #090909;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    cursor: pointer;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+        inset -4px -4px 12px #ffffff;
+}
+
+@media (max-width:450px) {
+    .wrapper {
+        width: 300px;
+        height: 320px;
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+            text-align: center;
+        }
+        .counter{
+            border: 1px solid #000;
+            padding: 50px 90px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+        }
+        .icon{
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="counter">
+            <img src="projector-line.svg" class="icon">
+            <h1 class="project">100</h1>
+            <p>Deal Projects</p>
+        </div>
+    </div>
+    <script>
+        var counter = document.querySelector(".project");
+
+        let count = 1 ;
+        setInterval(() => {
+            if(count < 1000){
+                count++;
+                counter.innerHTML = count;
+            }
+        }, 1);
+    </script>
+</body>
+</html>
