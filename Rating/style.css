@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: yellow;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    width: 480px;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.emoji {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background: yellow; */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.emoji i {
+    font-size: 50px;
+    color: #333;
+    transform: translateX(0px);
+    transition: all 0.4s ease;
+}
+
+.star_container {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.star_container .bx {
+    color: lightgray;
+    cursor: pointer;
+}
+
+.star_container .bx.active {
+    color: gold;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+/* For Responsive PArt  */
+@media (max-width:500px) {
+    .wrapper {
+        width: 450px;
+
+    }
+}
+
+@media (max-width:450px) {
+    .wrapper {
+        width: 375px;
+
+    }
+}
+
+@media (max-width:375px) {
+    .wrapper {
+        width: 320px;
+
+    }
+}
+
+@media (max-width:320px) {
+    .wrapper {
+        width: 250px;
+
+    }
+}

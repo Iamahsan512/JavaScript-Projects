@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Text using JavaScript</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Copy in Clipboard with JavaScript</h1>
+            <textarea  id="toCopy" spellcheck="false" rows="10" cols="30">Write something and copy it into your clipboard by clicking in the button below.
+            </textarea>
+            <button id="copy" type="button"><span class="copiedText" aria-hidden="true">Copied</span>Copy to Clipboard</button>
+    
+            <textarea  id="cleared" placeholder="Paste your copied content here." rows="10" cols="30"></textarea>
+        </div>
+    </div> 
+    
+
+    <!-- JavaScript -->
+    <script src="./main.js"></script>
+</body>
+</html>
