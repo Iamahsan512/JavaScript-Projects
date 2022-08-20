@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator using JS</title>
+    <!-- !CSS  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Password Generator</h1>
+      <div class="wrapper">
+        <div class="wrapper_header">
+          <input type="text" name="" id="displayPass" placeholder="Max value should 16" maxlength="16">
+        </div>
+        <div class="Wrapper_body">
+          <ul>
+            <li>
+              <p>Password Length</p>
+              <input type="number" id="length" />
+            </li>
+            <li>
+              <p>Contains Upper Letter</p>
+              <input type="checkbox" id="upper" />
+            </li>
+            <li>
+              <p>Contains Lower Letter</p>
+              <input type="checkbox" id="lower" />
+            </li>
+            <li>
+              <p>Contains Symbols</p>
+              <input type="checkbox" id="symbol" />
+            </li>
+            <li>
+              <p>Contains Numbers</p>
+              <input type="checkbox" id="numbers" />
+            </li>
+          </ul>
+        </div>
+        <div class="button">
+          <button type="submit" class="btn">Generate </button>
+          <button type="submit" class="btnCopy">Copy </button>
+        </div>
+      </div>
+    </div>
+    <!-- !JS  -->
+    <script src="./main.js"></script>
+  </body>
+</html>
