@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 430px;
+    height: 380px;
+}
+
+.wrapper h2 {
+    font-size: 35px;
+    color: brown;
+    
+}
+
+.from {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sub-form {
+    display: flex;
+    flex-direction: row !important;
+    margin: 60px 0px 50px 0px;
+    gap: 5px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+
+label {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: brown;
+    letter-spacing: 1px;
+}
+
+input {
+    width: 90px;
+    height: 30px;
+    color: brown;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 6px;
+    border-radius: 3px;
+    border: 2px solid brown;
+}
+
+input::placeholder {
+    color: gray;
+    font-weight: 400;
+}
+
+button {
+    background-color: brown;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 3px;
+    opacity: 1;
+    transition: opacity 0.4s ease, transform 0.4s;
+    overflow: hidden;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+#display {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #111;
+}
+
+/* Responsive part  */
+
+@media (max-width : 450px ) {
+    .wrapper {
+        width: 300px;
+        height: 380px;
+    }
+
+    .wrapper h2 {
+        font-size: 28px;
+    }
+
+    input {
+        width: 65px;
+    }
+}
