@@ -57,6 +57,11 @@
     padding: 15px;
 }
 
+#displayPass::placeholder {
+    color: #444;
+    font-size: 16px;
+}
+
 .wrapper_header h3 {
     font-size: 20px;
     color: #fff;
