@@ -58,8 +58,8 @@ const generatePassword = () => {
 
     // Length Sholud be 16 
 
-    if (password.length >= 17) {
-        alert(`Your Password Length(${password.length}) is too Long. Max Limit is 16`);
+    if (password.length > 20) {
+        alert(`Your Password Length(${password.length}) is too Long. Max Limit is 20`);
         displayPass.value = "";
     }
 }
