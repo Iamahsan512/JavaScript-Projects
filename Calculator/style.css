@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, cyan, yellow);
+}
+
+.calculator-container {
+    width: 400px;
+    height: 430px;
+    background-color: aliceblue;
+    padding: 0 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.output {
+    background: rgba(0, 0, 0, 0.616);
+    height: 90px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    border-radius: 5px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    overflow: hidden;
+}
+
+.value {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.btn-container button:nth-child(16) {
+    grid-column: 4;
+    grid-row: 4/ span 5;
+    background-color: green;
+    color: #fff;
+    padding: 0;
+    border-radius: 15px;
+    width: 90px;
+    height: 115px;
+    margin: auto;
+    transition: background 0.3s ease;
+}
+
+.btn-container button:nth-child(1) {
+    color: rgba(0, 128, 0, 0.822);
+}
+
+.btn-container button:nth-child(2) {
+    color: rgba(0, 128, 0, 0.822);
+}
+
+.btn-container button:nth-child(3) {
+    color: rgba(0, 128, 0, 0.822);
+}
+
+.btn-container button:nth-child(4) {
+    color: rgba(0, 128, 0, 0.822);
+}
+
+.btn-container button:nth-child(8) {
+    color: rgba(0, 128, 0, 0.822);
+}
+
+.btn-container button:nth-child(12) {
+    color: rgba(0, 128, 0, 0.822);
+}
+
+.btn-container button:nth-child(16):hover {
+    background-color: rgba(0, 128, 0, 0.822);
+}
+
+.btn-container button {
+    color: #111;
+    font-weight: 600;
+    font-size: 22px;
+    background-color: transparent;
+    padding: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.btn-container button:hover {
+    background-color: rgba(255, 255, 255, 7.25);
+}
+
+@media (max-width : 450px) {
+    .calculator-container {
+        width: 300px;
+    }
+
+    .output {
+        font-size: 24px;
+    }
+}
