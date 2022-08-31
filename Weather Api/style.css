@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper form {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 30px;
+    width: 420px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    border: transparent;
+}
+
+form input:focus,
+form button:focus{
+    border: none;
+    outline: none;
+    background-color: #fff !important;
+    box-shadow: none;
+}
+
+
+form button {
+    font-size: 30px;
+    height: 40px;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.weather-condition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-condition  h2 {
+    color: royalblue;
+}
+
+.temp-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+    margin-right: 20px;
+}
+.temp-icon img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.temp h2 {
+    color: brown;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.temp h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* for responsive part  */
+
+@media (max-width : 500px) {
+    .wrapper {
+        max-width: 90%;
+    }
+    .wrapper form {
+        width: 300px;
+    }
+}
