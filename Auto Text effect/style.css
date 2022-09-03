@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: linen;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 5vmax;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+h1 .career {
+    color: crimson;
+    transition: all 0.4s ease;
+}
