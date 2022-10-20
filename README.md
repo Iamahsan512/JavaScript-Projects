@@ -1,6 +1,8 @@
 # Vanilla JavaScript Projects
 
-I Created my beautiful Projects Using HTML, CSS and JavaScript to level up my skills
+I Created my beautiful Projects Using HTML, CSS and JavaScript to level up my skills.
+You can see all projects live here
+
 
 ## Projects
 
