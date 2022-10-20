@@ -5,7 +5,7 @@ I Created my beautiful Projects Using HTML, CSS and JavaScript to level up my sk
 ## Projects
 
 1.  [Accordian](https://iamahsan512.github.io/JavaScript-Projects/Accordian/)
-2.      [Age Calculator](https://iamahsan512.github.io/JavaScript-Projects/Age%20Calculator/)
+2.  [Age Calculator](https://iamahsan512.github.io/JavaScript-Projects/Age%20Calculator/)
 3.  [Animated Search_bar](https://iamahsan512.github.io/JavaScript-Projects/Animated%20Search_bar/)
 4.  [Auto Text effect](https://iamahsan512.github.io/JavaScript-Projects/Auto%20Text%20effect/)
 5.  [Background Color Changer](https://iamahsan512.github.io/JavaScript-Projects/Background%20Color%20Changer/)
