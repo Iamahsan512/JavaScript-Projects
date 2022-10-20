@@ -41,3 +41,4 @@ You can see all projects live here
 33. [Upload and Preview img](https://iamahsan512.github.io/JavaScript-Projects/Upload%20and%20Preview%20img/)
 34. [Weather Api](https://iamahsan512.github.io/JavaScript-Projects/Weather%20Api/)
 35. [inc & dec Counter](https://iamahsan512.github.io/JavaScript-Projects/inc%20&%20dec%20Counter/)
+36. [Tabs Componnets](https://iamahsan512.github.io/JavaScript-Projects/Tabs%20Componnets/)
