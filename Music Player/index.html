@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+      <!-- Favicon  -->
+      <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <!-- CSS  -->
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <!-- Font Awesome CDN Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="player">
+        <header>
+          <button class="header_btn">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <h3>Now Playing</h3>
+          <button class="header_btn">
+            <i class="fa-solid fa-list"></i>
+          </button>
+        </header>
+        <!-- Player  -->
+        <div class="img-area">
+          <img
+            src="./img/track1.jpg"
+            alt="Disk" />
+        </div>
+        <!-- Song Details  -->
+        <div class="song_details">
+          <h1 class="name">Powerful Beat</h1>
+          <h3 class="artist">penguin music</h3>
+        </div>
+        <!-- Audio Control  -->
+
+        <div class="song_timer">
+          <div class="current_time">00 : 00</div>
+          <div class="max_duration">01 : 45</div>
+        </div>
+        <!-- Progress Area -->
+        <div class="progress_area">
+          <div class="progress_line"></div>
+          <div class="progress_bar">
+            <audio
+              src="./tracks/track1.mp3"
+              id="audio"></audio>
+          </div>
+        </div>
+
+        <!-- Controls  -->
+        <div class="controls">
+          <button
+            id="prev"
+            class="btn_Control">
+            <i class="fa-solid fa-backward-step"></i>
+          </button>
+          <button
+            id="play_pause"
+            class="btn_Control">
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <button
+            id="next"
+            class="btn_Control">
+            <i class="fa-solid fa-forward-step"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- JS  -->
+    <script src="./musicList.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
