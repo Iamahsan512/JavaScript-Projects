@@ -42,3 +42,4 @@ You can see all projects live here
 34. [Weather Api](https://iamahsan512.github.io/JavaScript-Projects/Weather%20Api/)
 35. [inc & dec Counter](https://iamahsan512.github.io/JavaScript-Projects/inc%20&%20dec%20Counter/)
 36. [Tabs Componnets](https://iamahsan512.github.io/JavaScript-Projects/Tabs%20Componnets/)
+37. [Music Player](https://iamahsan512.github.io/JavaScript-Projects/Music%20Player/)
