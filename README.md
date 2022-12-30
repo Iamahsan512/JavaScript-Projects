@@ -35,7 +35,7 @@ You can see all projects live here. The projects cover a range of topics and tec
 28. [Search bar](https://ahsanwebengr.github.io/JavaScript-Projects/Search%20bar/)
 29. [Simple Color Flipper](https://ahsanwebengr.github.io/JavaScript-Projects/Simple%20Color%20Flipper/)
 30. [Skeleton Loading](https://ahsanwebengr.github.io/JavaScript-Projects/Sketleton%20Loading/)
-31. [To Do App](https://ahsanwebengr.github.io/JavaScript-Projects/To%20Do%20App/)
+31. [Todo App](https://ahsanwebengr.github.io/JavaScript-Projects/todoApp/)
 32. [Toggle Button](https://ahsanwebengr.github.io/JavaScript-Projects/Toggle%20Button/)
 33. [Upload and Preview img](https://ahsanwebengr.github.io/JavaScript-Projects/Upload%20and%20Preview%20img/)
 34. [Weather Api](https://ahsanwebengr.github.io/JavaScript-Projects/Weather%20Api/)
