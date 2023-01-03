@@ -13,6 +13,7 @@ if (localStorage.getItem('data') != null) {
   data = JSON.parse(localStorage.getItem('data'));
 }
 
+
 // Click Listeners
 newNoteBtn.addEventListener('click', () => {
   modelEl.classList.add('open');
