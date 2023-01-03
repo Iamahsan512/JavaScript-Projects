@@ -17,8 +17,6 @@ if (localStorage.getItem('data') != null) {
 newNoteBtn.addEventListener('click', () => {
   modelEl.classList.add('open');
   overlyEl.classList.add('active');
-  newNoteBtn.disabled = true;
-  delNotes.disabled = true;
 });
 
 closeBtn.addEventListener('click', () => {
