@@ -293,10 +293,10 @@ button:disabled {
     font-size: 22px;
   }
   #form .input-filed {
-    width: 280px;
+    width: 260px;
   }
 
   #form #textArea {
-    width: 280px;
+    width: 260px;
   }
 }
