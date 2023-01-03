@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Google Keep</title>
+    <!-- CSS  -->
+    <link
+      rel="stylesheet"
+      href="./assets/css/style.css" />
+    <!-- JS  -->
+    <script
+      src="./assets/js/index.js"
+      defer></script>
+    <!-- Font Awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <!-- Sweet Alert  -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Navbar  -->
+      <nav class="navbar">
+        <a
+          href="#"
+          class="logo">
+          <img
+            src="./assets/img/google.png"
+            alt="logo"
+            width="50" /><span>Google Keep</span>
+        </a>
+      </nav>
+      <!-- Hero section  -->
+      <section class="main">
+        <div class="container">
+          <div class="addNotes">
+            <button id="newNoteBtn">
+              <i class="fa-solid fa-plus"></i> New note
+            </button>
+            <div class="model">
+              <button id="closeBtn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+              <form id="form">
+                <h2>Create Notes</h2>
+                <div class="input-filed">
+                  <input
+                    type="text"
+                    placeholder="Enter Title"
+                    required />
+                </div>
+                <div class="input-filed" id="textArea">
+                  <textarea
+                    placeholder="Write Description"
+                    required></textarea>
+                </div>
+                <button id="submitBtn">Submit</button>
+              </form>
+            </div>
+            <div class="overly"></div>
+          </div>
+          <div class="notes-container">
+            <!-- <div class="note">
+              <h3>Title</h3>
+              <p>
+                Description
+              </p>
+              <div class="actions">
+                <button class="delete">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
